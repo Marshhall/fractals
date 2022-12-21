@@ -2,10 +2,6 @@ INSTRUCTIONS
 ------------
 Put all files in one directory.
 
-Look at main.c which is a minimalist example of how you can create an
-image and save it in .gif.
-You have to modify this program to decide what to do with every pixel (x,y)
-
 You must compile doing 
 cc main.c image.c -o programa (C)
 
@@ -15,7 +11,7 @@ This creates an executable file called programa.
 Run it by
 ./programa
 Its execution creates a file called test.gif (you can change 
-this name from inside main.cc). 
+this name from inside main.c). 
 
 The color palette that it uses (blue.map) is also indicated from the inside of main.c.
 The files *.map are different color palettes, which assign an RGB color (3 numbers)
