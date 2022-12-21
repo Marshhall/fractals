@@ -47,37 +47,3 @@ cabs(), creal(), cimag(), ...
 REMEMBER TO COMPILE USING -lm TO LINK TO THE MATH LIBRARY
 
 cc -lm main.c image.c -o programa
-
-
-
-**************************************************************************
-**************************************************************************
-
-INSTRUCCIONS
-
-
-Poseu tots els fitxers d'aquesta carpeta a un directori.
-
-
-Mireu el main.c que és un exemple minimalista de com es pot crear una imatge i guardar-la en gif. 
-Vosaltres heu de modificar aquest programa per a decidir què feu amb cada pixel x,y.
-
-
-Heu de compilar fent
-
-cc main.c image.c -o programa (si feu servir C)
-
-gcc  main.c image.c -o programa (si feu servir C++)
-
-
-Això us crea un executable anomenat programa
-Executeu-lo fent 
-./programa
-
-El nom del fitxer que resulta d'executar-lo  està dins del codi (test.gif).
-
- També està dins del codi la paleta de colors que es fa servir (blue.map). Són aquests fitxers *.map 
-que assignen un r g b a cada enter de 0 a 255. Vosaltres us podeu fer els vostres. Jo us n'he posat  uns quants exemples.
-
-
-Podeu modificar el programa tal i com ho creieu necessari
