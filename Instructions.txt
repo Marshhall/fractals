@@ -17,29 +17,6 @@ The color palette that it uses (blue.map) is also indicated from the inside of m
 The files *.map are different color palettes, which assign an RGB color (3 numbers)
 to every number from 0 to 255. You can create your own palette files, but some examples are in the directory.
 
-You may modify the program as you see fit.
-
-
-INSTRUCTIONS FOR COMPLEX
--------------------------
-(using cc compiler for C, in linux)
-
-If you want to use complex numbers you need to add
-#include<complex.h>
-#include<math.h>
-
-to the main program. Then, you have three new types
-
-float complex
-double complex
-long double complex
-
-and also a predefined number I which is the complex number 0.0 + 1.0*I
-You may define complex numbers like z = x + I*y
-where x and y are floats or doubles or long doubles.
-You also have several functions like 
-cabs(), creal(), cimag(), ...
-
 REMEMBER TO COMPILE USING -lm TO LINK TO THE MATH LIBRARY
 
 cc -lm main.c image.c -o programa
